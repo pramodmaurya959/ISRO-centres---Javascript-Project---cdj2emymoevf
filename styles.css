@@ -71,7 +71,7 @@ body {
       display: inline-flex;
       margin-right: 10px;
       transition: max-width 0.2s;
-      /* transform: translate3d(); */
+   
     }
   .heading{
     color: white;
@@ -89,22 +89,19 @@ body {
   #search-wrapper{
     width: 50%;
     border: none;
-    /* margin: auto; */
+   
     position: relative;
     border-radius: 20px;
     background-color: lightgray;
   }
   #searchInput{
     width: 50%;
-    /* padding: 12px 20px; */
-    /* margin: 8px 0; */
-  
-    /* box-sizing: border-box; */
+   
     border-radius: 20px;
     outline: none;
     border: none;
     background-color: inherit;
-    /* position: relative; */
+    
   }
   #searchBtn{
     padding: 5px 5px;
@@ -137,22 +134,11 @@ body {
     font-weight: 100;
     font-family: 'Courier New', Courier, monospace;
   }
-  /* .table{
-  display: flex;
-  justify-content: space-evenly;
-  }
-  .externalDiv{
-    display: grid;
-    justify-content: space-evenly;
-    flex-direction: column-reverse;
-  }
-  #resultContainer{
-    background-color: blue;
-  } */
+ 
   
   #result-container{
     margin-top: 10px;
-    /* background-color: blue; */
+  
     border-radius: 20px;
   }
   .card{
